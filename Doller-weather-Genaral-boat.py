@@ -66,7 +66,7 @@ def get_weather(latitude, longitude):
 def convert_usd_to_inr(amount):
     url = "http://api.exchangeratesapi.io/v1/latest"
     params = {
-        "access_key": "2283c8e9f27bbd8c91587a8e972f2b8e",
+        "access_key": "",
         "symbols": "USD,INR"
     }
     response = requests.get(url, params=params)
